@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    width: 55%;
+    border: 5px solid black;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+
+.wrapper {
+    padding: 10px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.email input {
+    width: 100%;
+}
+
+.name input {
+    width: 100%;
+}
+
+.password input {
+    width: 100%;
+}
+
+.passwordCheck input {
+    width: 100%;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+}
+
+#phone1 {
+    width: 25%;
+}
+#phone2 {
+    width: 35%;
+}
+
+#phone3 {
+    width: 35%;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth div {
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color:greenyellow;
+}
+
+.auth button {
+    color:deepskyblue;
+    width: 70%;
+}
+
+.timer div {
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color:gold;
+}
+.timer button {
+    width: 70%;
+}
+
+.area select {
+    width: 100%;
+    height: 40px;
+}
+
+.gender {
+    text-align: justify;
+}
+
+.signUp button {
+    width: 100%;
+    cursor:wait;
+}
+
+button{
+    cursor: wait;
+    height: 30px;
+}
+
+.error{
+    font-size: 1px;
+    height: 20px;
+    color:tomato;
+    font-weight: 700;
+}
